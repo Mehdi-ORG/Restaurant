@@ -1,0 +1,13 @@
+.info-card{
+  background-color: rgb(195, 34, 34) !important;
+  color: white !important;
+}
+
+.about-main-small i{
+  color: rgb(249, 41, 41);
+  font-size: 30px;
+  background-color: rgb(250, 236, 236);
+  padding: 18px;
+  border-radius: 50%;
+  margin-top: 50px;
+}

@@ -1,0 +1,38 @@
+.about-btn{
+  position: relative;
+  background-image: url('../../asset//image/stats-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 89px;
+}
+
+.about-btn::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.4);
+}
+
+.about-btn-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  filter: brightness(100%);
+}
+.about-btn-text h1{
+  padding-top: 60px;
+  font-size: 50px !important;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.about-btn-text p{
+  opacity: 70%;
+  font-weight: 700;
+}
